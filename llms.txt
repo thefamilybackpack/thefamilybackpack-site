@@ -1,0 +1,27 @@
+# The Family Backpack
+
+> Midwest family travel field guides. Curated, fact-checked, and dated guides for family trips to Door County, Milwaukee, Louisville and the wider Midwest — written by a family who travels with a toddler. Every fact is checked against official park and venue sources before publishing.
+
+## About
+The Family Backpack publishes practical, honest family-travel field guides focused on the American Midwest. Content is organized by destination cluster (Door County, Milwaukee) with deep guides on attractions, dining, lodging, itineraries, and "is it good for kids" questions. Guides prioritize real logistics: prices, hours, free days, stroller access, and what to skip.
+
+## Door County guides
+- [Door County With Kids: Full Guide](https://thefamilybackpack.com/door-county-with-kids.html): The complete family field guide to the peninsula — Peninsula State Park, the Washington Island ferry, the goats on the roof, which town to base in.
+- [Best Family Resorts in Door County](https://thefamilybackpack.com/best-family-resorts-in-door-county.html): Family resorts compared — indoor pools, kitchens, and which town, with who each suits.
+- [Best Family Beaches in Door County](https://thefamilybackpack.com/door-county-family-beaches.html): Calm bay beaches vs the wild Lake Michigan side, with the safe-swim picks.
+- [Camping in Door County With Kids](https://thefamilybackpack.com/camping-in-door-county-with-kids.html): How to get a Peninsula State Park site, plus private campgrounds with pools.
+- [Family Restaurants in Door County](https://thefamilybackpack.com/door-county-family-restaurants.html): Fish boils, the goats at Al Johnson's, and the best custard.
+- [Door County Family Itinerary](https://thefamilybackpack.com/door-county-family-itinerary.html): A day-by-day plan for 3 or 4 days with kids.
+- [Is Door County Good for Kids?](https://thefamilybackpack.com/is-door-county-good-for-kids.html): The honest answer — yes for outdoorsy families who like a slower pace.
+
+## Milwaukee guides
+- [Things to Do in Milwaukee With Kids](https://thefamilybackpack.com/things-to-do-in-milwaukee-with-kids.html): The full family field guide to the city — the County Zoo, museums, and lakefront.
+- [Milwaukee County Zoo With Kids](https://thefamilybackpack.com/milwaukee-county-zoo-with-kids.html): 2026 hours and flex pricing, the six Family Free Days, the new rhino center, and doing it with a toddler.
+- [Milwaukee Museums With Kids](https://thefamilybackpack.com/milwaukee-museums-with-kids.html): Discovery World, Betty Brinn and the Public Museum ranked by age, with the free days.
+- [Where to Stay in Milwaukee With Kids](https://thefamilybackpack.com/where-to-stay-in-milwaukee-with-kids.html): Family hotels compared, with the waterpark option just outside town.
+- [Milwaukee With Toddlers](https://thefamilybackpack.com/milwaukee-with-toddlers.html): The under-5 wins and what to skip.
+- [Free Things to Do in Milwaukee With Kids](https://thefamilybackpack.com/free-things-to-do-in-milwaukee-with-kids.html): The beach, free museum days, and six free zoo days.
+- [What Is a Must-Do in Milwaukee With Kids?](https://thefamilybackpack.com/must-do-in-milwaukee-with-kids.html): The one pick — the County Zoo — and when to overrule it.
+
+## Louisville guides
+- [Things to Do in Louisville With Kids](https://thefamilybackpack.com/things-to-do-in-louisville-with-kids.html): The underground Mega Cavern with the world's only underground ziplines, the Slugger Museum, and hands-on science.
