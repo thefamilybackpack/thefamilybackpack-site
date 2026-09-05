@@ -432,6 +432,12 @@
     .navtoggle:checked ~ .hamburger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
   }
 </style>
+<style>/* mobile overflow fix */
+html,body{overflow-x:hidden;max-width:100%}
+h1,h2,h3,h4,p,li,blockquote{overflow-wrap:break-word;word-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
+img,svg,video,iframe{max-width:100%;height:auto}
+.logo span{font-family:"Cormorant Garamond",serif !important;font-size:1.55rem;font-weight:500;letter-spacing:.01em} /* logo font */
+</style>
 <style>.nl-wrap,.nl-badge,.nl-card,#nl-badge,#nl-card{display:none !important;}</style>
 <style>/* Hide Netlify deploy badge */
 .nl-wrap,.nl-badge,.nl-card,#nl-badge,#nl-card{display:none !important;}
