@@ -1,0 +1,89 @@
+# The Family Backpack, robots.txt
+#
+# Policy: welcome AI *answer engines* that cite us and send traffic back.
+# Block AI *training-only* crawlers that ingest content without a link.
+# (robots.txt is honored by all major bots; it is a request, not enforcement.)
+
+# ============================================================
+# 1. DEFAULT, allow normal search + anything not named below
+# ============================================================
+User-agent: *
+Allow: /
+
+# ============================================================
+# 2. SEARCH ENGINES (classic web search), always welcome
+# ============================================================
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ============================================================
+# 3. AI ANSWER ENGINES, welcome (they cite us + drive clicks)
+# ============================================================
+# Perplexity, live answers with source links
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# OpenAI, ChatGPT Search + live user fetches (cite + link)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic, live user fetches inside Claude (cite + link)
+User-agent: Claude-User
+Allow: /
+
+# ============================================================
+# 4. AI TRAINING-ONLY CRAWLERS, blocked (ingest, no link back)
+# ============================================================
+# OpenAI model-training crawler
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic model-training crawler
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Google AI/Gemini training (separate from Googlebot search)
+User-agent: Google-Extended
+Disallow: /
+
+# Apple AI training (separate from Applebot search)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Common Crawl, feeds many third-party training datasets
+User-agent: CCBot
+Disallow: /
+
+# Meta AI training
+User-agent: meta-externalagent
+Disallow: /
+User-agent: FacebookBot
+Disallow: /
+
+# Amazon AI training
+User-agent: Amazonbot
+Disallow: /
+
+# Bytedance / TikTok AI training
+User-agent: Bytespider
+Disallow: /
+
+# ============================================================
+# 5. Sitemap
+# ============================================================
+Sitemap: https://thefamilybackpack.com/sitemap.xml

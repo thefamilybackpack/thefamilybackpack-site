@@ -1,0 +1,39 @@
+# ============================================
+# thefamilybackpack.com — Netlify redirects
+# 301 = permanent. Preserves SEO + inbound links.
+# ============================================
+
+# --- 1. Old .html URLs (already indexed by Google) -> new slug-with-slash ---
+/best-family-resorts-in-door-county.html   /best-family-resorts-in-door-county/   301
+/best-podcasts-kids-family-will-enjoy.html   /best-podcasts-kids-family-will-enjoy/   301
+/camping-in-door-county-with-kids.html   /camping-in-door-county-with-kids/   301
+/door-county-family-beaches.html   /door-county-family-beaches/   301
+/door-county-family-itinerary.html   /door-county-family-itinerary/   301
+/door-county-family-restaurants.html   /door-county-family-restaurants/   301
+/door-county-with-kids.html   /door-county-with-kids/   301
+/family-bucket-list-travel-midwest.html   /family-bucket-list-travel-midwest/   301
+/free-things-to-do-in-milwaukee-with-kids.html   /free-things-to-do-in-milwaukee-with-kids/   301
+/is-door-county-good-for-kids.html   /is-door-county-good-for-kids/   301
+/milwaukee-county-zoo-with-kids.html   /milwaukee-county-zoo-with-kids/   301
+/milwaukee-museums-with-kids.html   /milwaukee-museums-with-kids/   301
+/milwaukee-with-kids-summer.html   /milwaukee-with-kids-summer/   301
+/milwaukee-with-toddlers.html   /milwaukee-with-toddlers/   301
+/must-do-in-milwaukee-with-kids.html   /must-do-in-milwaukee-with-kids/   301
+/st-louis-best-kept-secret-the-city-museum.html   /st-louis-best-kept-secret-the-city-museum/   301
+/the-travel-tribe.html   /the-travel-tribe/   301
+/things-to-do-in-louisville-with-kids.html   /things-to-do-in-louisville-with-kids/   301
+/things-to-do-in-milwaukee-with-kids.html   /things-to-do-in-milwaukee-with-kids/   301
+/things-to-do-in-st-louis-with-kids.html   /things-to-do-in-st-louis-with-kids/   301
+/what-to-pack-for-a-family-road-trip.html   /what-to-pack-for-a-family-road-trip/   301
+/where-to-stay-in-milwaukee-with-kids.html   /where-to-stay-in-milwaukee-with-kids/   301
+
+# --- 2. Old WordPress slugs carrying real DR 73-75 dofollow links ---
+# (these are the links we're rescuing from 404)
+/things-to-do-with-kids-in-door-county-wi/   /door-county-with-kids/   301   # wuwm DR73
+
+# --- 3. High-DR category/legacy paths worth a targeted 301 ---
+/category/inspiration/inspiring-travel-ideas/   /family-bucket-list-travel-midwest/   301   # onmilwaukee DR75
+/wp-content/uploads/2017/10/The-Family-Bookpack-May-2017.pdf   /the-travel-tribe/   301   # onmilwaukee DR75
+
+# --- 4. Old WordPress category/location noise -> home (404-clean not needed, soft catch) ---
+# (intentionally NOT catch-all redirecting; only the two above have real links)
