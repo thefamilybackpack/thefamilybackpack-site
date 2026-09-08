@@ -456,6 +456,9 @@ img,svg,video,iframe,table{max-width:100%;height:auto}
 @media(max-width:820px){.grid,.herogrid,.hero .wrap.herogrid,.mag-hero .wrap{grid-template-columns:1fr !important}}@media(max-width:760px){nav.top{display:flex !important}.navtoggle:checked ~ nav.top{right:0 !important}}
   .widgetblock{margin:30px 0}
   .widgetblock .lbl{display:block;margin-bottom:10px;color:var(--signal,#BE7526);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase}
+  .sharebtn{display:inline-flex;align-items:center;gap:7px;margin-top:14px;padding:8px 14px;border:1px solid var(--line,#C6C1AE);border-radius:6px;background:transparent;color:var(--pine,#1E4A43);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .15s;font-family:'IBM Plex Mono',monospace}
+  .sharebtn:hover{background:var(--paper-2,#E1DECE)}
+  .sharebtn svg{flex:0 0 auto}
 </style>
 
 <style>.nl-wrap,.nl-badge,.nl-card,#nl-badge,#nl-card{display:none !important;}</style>
@@ -544,6 +547,8 @@ img,svg,video,iframe,table{max-width:100%;height:auto}
       <h1>Door County with kids, <em>the slow way</em></h1>
       <p class="standfirst">Wisconsin's thumb is a 70-mile peninsula of small harbor towns, five state parks and water on both sides. It rewards families who slow down. Here's how to shape a first trip, and where to go deep once you've picked your base.</p>
       <div class="byline mono"><span class="dot"></span><span>By the Editors</span><span>&middot;</span><span>Updated Sep 2026</span><span>&middot;</span><span>13 min</span></div>
+      <button type="button" class="sharebtn mono" onclick="tfbShare(this)" aria-label="Share this guide"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.5" x2="15.4" y2="6.6"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.4"/></svg><span class="shlbl">Share</span></button>
+      <script>function tfbShare(b){var u=location.href,t=document.title;if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard){navigator.clipboard.writeText(u).then(function(){var l=b.querySelector('.shlbl');if(l){var o=l.textContent;l.textContent='Link copied!';setTimeout(function(){l.textContent=o;},1800);}});}}</script>
       <p class="disc mono">Some links are affiliate links. We only point to places we'd send a friend, and it never changes what you pay.</p>
     </div>
 <div class="hfig">
