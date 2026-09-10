@@ -228,6 +228,13 @@
   .inlinefig + p + .parks, .inlinefig + .parks{clear:both}
 
 .realimg figcaption{display:block;width:100%;box-sizing:border-box;color:var(--ink-soft) !important;text-shadow:none !important;overflow-wrap:anywhere;line-height:1.3}
+  .checklist{border:1px solid var(--line);border-radius:10px;background:var(--paper-2);padding:20px 24px;margin:22px 0}
+  .cl-title{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--signal,#BE7526);margin-bottom:12px}
+  .cl-items{list-style:none;margin:0;padding:0}
+  .cl-items li{position:relative;padding:7px 0 7px 30px;border-bottom:1px solid var(--line);line-height:1.5;color:var(--ink)}
+  .cl-items li:last-child{border-bottom:none}
+  .cl-items li::before{content:"";position:absolute;left:0;top:10px;width:16px;height:16px;border:1.5px solid var(--pine,#1E4A43);border-radius:4px}
+  .cl-items li strong{color:var(--pine,#1E4A43)}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
@@ -454,7 +461,7 @@
 html,body{overflow-x:hidden;max-width:100vw}
 .wrap,.grid,.herogrid,.hero,section,main,article{max-width:100%;box-sizing:border-box}
 .grid,.herogrid{grid-template-columns:1fr}
-h1,h2,h3,h4,p,li,blockquote,dd,dt,.standfirst{overflow-wrap:break-word;word-break:break-word;-webkit-hyphens:auto;hyphens:auto}
+h1,h2,h3,h4,p,li,blockquote,dd,dt,.standfirst{overflow-wrap:break-word;-webkit-hyphens:none;hyphens:none}
 img,svg,video,iframe,table{max-width:100%;height:auto}
 .logo span{font-family:"Cormorant Garamond",serif !important;font-size:1.55rem;font-weight:500;letter-spacing:.01em}
 .nl-wrap,.nl-badge,.nl-card,#nl-badge,#nl-card{display:none !important}
