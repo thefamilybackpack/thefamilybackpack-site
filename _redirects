@@ -34,3 +34,21 @@
 # --- High-DR legacy paths ---
 /category/inspiration/inspiring-travel-ideas/ /family-bucket-list-travel-midwest/ 301
 /wp-content/uploads/2017/10/The-Family-Bookpack-May-2017.pdf /the-travel-tribe/ 301
+
+# --- Legacy content URLs carrying real editorial links (recover equity, Sep 2026) ---
+/fall-family-friendly-activities-door-county-wisconsin/ /door-county-with-kids/ 301
+/lavender-field-with-family-a-bucket-list-must/ /family-bucket-list-travel-midwest/ 301
+/how-your-family-can-give-on-vacation-volunteering-opportunities/ / 301
+/barbados-excursions-beaches-restaurants-kids/ / 301
+/learn-spanish-kids-educational-travel/ / 301
+/the-family-backpack-2017-holiday-gift-guide/ /the-travel-tribe/ 301
+/3-amazing-days-of-adventure-in-central-alaska-with-kids/ / 301
+/atlanta-the-outdoors-and-adventure-family/ / 301
+/atlantas-top-attractions-families/ / 301
+/atlanta-the-all-about-learning-family-getaway/ / 301
+/family-vacation-whistler-winter/ / 301
+/downloadable-postcards-ireland/ / 301
+
+# --- Old WordPress taxonomy (catch remaining legacy /category & /location_category paths) ---
+/location_category/* / 301
+/category/* / 301
