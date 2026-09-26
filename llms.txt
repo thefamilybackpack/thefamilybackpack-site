@@ -1,6 +1,6 @@
 # The Family Backpack
 
-> Midwest family travel field guides. Curated, fact-checked, and dated guides for family trips to Door County, Milwaukee, Louisville, St. Louis and the wider Midwest, written by a family who travels with a toddler. Every fact is checked against official park and venue sources before publishing.
+> Midwest family travel field guides. Curated, fact-checked, and dated guides for family trips to Door County, Milwaukee, Wisconsin Dells, Louisville, St. Louis and the wider Midwest, written by a family who travels with a toddler. Every fact is checked against official park and venue sources before publishing.
 
 ## About
 The Family Backpack publishes practical, honest family-travel field guides focused on the American Midwest. Content is organized by destination cluster (Door County, Milwaukee, plus growing Midwest cities) with deep guides on attractions, dining, lodging, itineraries, and "is it good for kids" questions. Guides prioritize real logistics: prices, hours, free days, stroller access, and what to skip. Every guide is dated, and prices and hours are verified against official sources before publishing.
@@ -28,6 +28,12 @@ The Family Backpack publishes practical, honest family-travel field guides focus
 - [Free Things to Do in Milwaukee With Kids](https://thefamilybackpack.com/free-things-to-do-in-milwaukee-with-kids/): The beach, free museum days, and six free zoo days.
 - [Milwaukee With Kids in Summer](https://thefamilybackpack.com/milwaukee-with-kids-summer/): Bradford Beach, the zoo's free days, and how to plan around summer heat and crowds.
 - [What Is a Must-Do in Milwaukee With Kids?](https://thefamilybackpack.com/must-do-in-milwaukee-with-kids/): The one pick, the County Zoo, and when to overrule it.
+
+## Wisconsin Dells guides
+- [Things to Do in Wisconsin Dells With Kids](https://thefamilybackpack.com/things-to-do-in-wisconsin-dells-with-kids/): Beyond the waterparks, the Original Wisconsin Ducks, the Deer Park, Wizard Quest, Noah's Ark and Devil's Lake, plus how many days and when to go.
+- [Best Wisconsin Dells Waterpark Resorts](https://thefamilybackpack.com/best-wisconsin-dells-waterpark-resorts/): Kalahari, Wilderness, Great Wolf, Chula Vista and Mt. Olympus compared by age, budget, indoor vs outdoor and day-pass rules.
+- [Kalahari Resort With Kids](https://thefamilybackpack.com/kalahari-resort-with-kids/): Wisconsin's largest indoor waterpark plus the Tom Foolerys theme park, day passes, and the 2026 expansion.
+- [Wilderness Resort With Kids](https://thefamilybackpack.com/wilderness-resort-with-kids/): America's largest waterpark resort, the toddler-friendly Cubby's Cove, Glacier Canyon kitchen condos, and day-pass rules.
 
 ## Louisville guides
 - [Things to Do in Louisville With Kids](https://thefamilybackpack.com/things-to-do-in-louisville-with-kids/): The underground Mega Cavern with the world's only underground ziplines, the Slugger Museum, and hands-on science.
