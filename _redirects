@@ -1,55 +1,56 @@
-# thefamilybackpack.com redirects (Cloudflare Pages)
-# Cloudflare serves /slug/ -> /slug/index.html automatically, so NO 200 rewrite rules.
-# Only 301s to preserve inbound links.
+# thefamilybackpack.com — 301 redirect map
+# Purpose: recover traffic from the previous owner's dead URLs (old Pinterest
+# pins, old backlinks) by sending each 404 to the closest live page.
+# Syntax: Cloudflare Pages / Netlify. Must sit at the PUBLISHED site root.
+# Rules are first-match-wins, so specific paths go ABOVE the wildcard (*) rules.
+#
+# NOT redirected on purpose:
+#  - /honduras-with-kids/  -> being revived with original first-hand content.
+#  - Old slugs that are already LIVE pages (e.g. /milwaukee-with-kids-summer/,
+#    /family-bucket-list-travel-midwest/, /what-to-pack-for-a-family-road-trip/):
+#    those pins already land correctly, so we leave them alone.
 
-# --- Old .html URLs (already indexed) -> new slug-with-slash ---
-/best-family-resorts-in-door-county.html /best-family-resorts-in-door-county/ 301
-/best-podcasts-kids-family-will-enjoy.html /best-podcasts-kids-family-will-enjoy/ 301
-/camping-in-door-county-with-kids.html /camping-in-door-county-with-kids/ 301
-/door-county-family-beaches.html /door-county-family-beaches/ 301
-/door-county-family-itinerary.html /door-county-family-itinerary/ 301
-/door-county-family-restaurants.html /door-county-family-restaurants/ 301
-/door-county-with-kids.html /door-county-with-kids/ 301
-/door-county-rainy-day.html /door-county-rainy-day/ 301
-/family-bucket-list-travel-midwest.html /family-bucket-list-travel-midwest/ 301
-/free-things-to-do-in-milwaukee-with-kids.html /free-things-to-do-in-milwaukee-with-kids/ 301
-/is-door-county-good-for-kids.html /is-door-county-good-for-kids/ 301
-/milwaukee-county-zoo-with-kids.html /milwaukee-county-zoo-with-kids/ 301
-/milwaukee-museums-with-kids.html /milwaukee-museums-with-kids/ 301
-/milwaukee-with-kids-summer.html /milwaukee-with-kids-summer/ 301
-/milwaukee-with-toddlers.html /milwaukee-with-toddlers/ 301
-/must-do-in-milwaukee-with-kids.html /must-do-in-milwaukee-with-kids/ 301
-/st-louis-best-kept-secret-the-city-museum.html /st-louis-best-kept-secret-the-city-museum/ 301
-/the-travel-tribe.html /the-travel-tribe/ 301
-/things-to-do-in-louisville-with-kids.html /things-to-do-in-louisville-with-kids/ 301
-/things-to-do-in-milwaukee-with-kids.html /things-to-do-in-milwaukee-with-kids/ 301
-/things-to-do-in-st-louis-with-kids.html /things-to-do-in-st-louis-with-kids/ 301
-/what-to-pack-for-a-family-road-trip.html /what-to-pack-for-a-family-road-trip/ 301
-/where-to-stay-in-milwaukee-with-kids.html /where-to-stay-in-milwaukee-with-kids/ 301
+# ================= STRONG TOPICAL MATCHES (pass link equity) =================
+# Old post -> the live page that best replaces it.
+/things-to-do-with-kids-in-door-county-wi/      /door-county-with-kids/                  301
+/family-vacation-louisville/                     /things-to-do-in-louisville-with-kids/   301
+/milwaukee-with-kids-winter/                     /things-to-do-in-milwaukee-with-kids/    301
+/best-kids-travel-suitcase/                      /what-to-pack-for-a-family-road-trip/    301
+/our-printable-essential-travel-check-list/      /what-to-pack-for-a-family-road-trip/    301
+/favorite-kids-travel-journal/                   /what-to-pack-for-a-family-road-trip/    301
+/downloadable-postcards-ireland/                 /free-coloring-book/                     301
+/downloadable-travel-postcards-kids-paris/       /free-coloring-book/                     301
 
-# --- Old WordPress slugs carrying real DR 73-75 links ---
-/things-to-do-with-kids-in-door-county-wi /door-county-with-kids/ 301
-/things-to-do-with-kids-in-door-county-wi/ /door-county-with-kids/ 301
+# ================= MIDWEST CONTENT, NO DEDICATED PAGE YET ====================
+# Relevant region/topic -> the Midwest hub (sensible landing, not off-topic).
+/top-five-activies-with-kids-madison/            /family-bucket-list-travel-midwest/      301
+/motor-city-detroit-with-kids/                   /family-bucket-list-travel-midwest/      301
+/things-to-do-in-minneapolis-and-st-paul-in-the-winterwith-kids/  /family-bucket-list-travel-midwest/  301
+/get-out-in-nature-in-the-chicago-suburbs-with-kids/  /family-bucket-list-travel-midwest/  301
+/explore-enjoy-cincinnati-with-your-family/      /family-bucket-list-travel-midwest/      301
 
-# --- High-DR legacy paths ---
-/category/inspiration/inspiring-travel-ideas/ /family-bucket-list-travel-midwest/ 301
-/wp-content/uploads/2017/10/The-Family-Bookpack-May-2017.pdf /the-travel-tribe/ 301
+# ================= OTHER-REGION BUCKET LISTS -> OUR BUCKET LIST ==============
+/family-bucket-list-travel-southeast/            /family-bucket-list-travel-midwest/      301
+/family-bucket-list-travel-mid-atlantic-states/  /family-bucket-list-travel-midwest/      301
+/new-england-bucket-list/                        /family-bucket-list-travel-midwest/      301
+/family-travel-bucket-list-2/                     /family-bucket-list-travel-midwest/     301
 
-# --- Legacy content URLs carrying real editorial links (recover equity, Sep 2026) ---
-/about/the-travel-tribe/ /the-travel-tribe/ 301
-/contact-us/ /the-travel-tribe/ 301
-/lavender-field-with-family-a-bucket-list-must/ /family-bucket-list-travel-midwest/ 301
-/how-your-family-can-give-on-vacation-volunteering-opportunities/ / 301
-/barbados-excursions-beaches-restaurants-kids/ / 301
-/learn-spanish-kids-educational-travel/ / 301
-/the-family-backpack-2017-holiday-gift-guide/ /the-travel-tribe/ 301
-/3-amazing-days-of-adventure-in-central-alaska-with-kids/ / 301
-/atlanta-the-outdoors-and-adventure-family/ / 301
-/atlantas-top-attractions-families/ / 301
-/atlanta-the-all-about-learning-family-getaway/ / 301
-/family-vacation-whistler-winter/ / 301
-/downloadable-postcards-ireland/ / 301
+# ================= ABOUT / CONTACT -> THE TRAVEL TRIBE =======================
+/about/                                          /the-travel-tribe/                       301
+/about/the-travel-tribe/                         /the-travel-tribe/                       301
+/contact-us/                                     /the-travel-tribe/                       301
 
-# --- Old WordPress taxonomy (catch remaining legacy /category & /location_category paths) ---
-/location_category/* / 301
-/category/* / 301
+# ================= OLD WORDPRESS TAXONOMY -> HOMEPAGE ========================
+# Hundreds of old archive pages (/location_category/<place>/, /category/<x>/).
+# One wildcard each catches them all. These pass little equity but stop the 404.
+/location_category/*                             /                                        301
+/category/*                                      /                                        301
+/destinations/                                   /                                        301
+
+# ================= NOTE ON THE OFF-NICHE LONG TAIL ==========================
+# ~120 old global posts (Costa Rica, Vietnam, Japan, Barbados, etc.) have NO
+# relevant live page. They are deliberately left to the custom 404 page, which
+# routes visitors to the hubs. Blanket-redirecting them to the homepage would
+# be read by Google as soft-404s and pass no value. Once the GSC "Not found
+# (404)" export shows which of them still get real clicks, we add targeted
+# redirects for only those, to the closest hub.
