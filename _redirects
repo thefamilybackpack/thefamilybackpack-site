@@ -40,6 +40,14 @@
 /about/the-travel-tribe/                         /the-travel-tribe/                       301
 /contact-us/                                     /the-travel-tribe/                       301
 
+# ================= GSC-CONFIRMED 404s (Oct 2026 export) =====================
+# These showed up in Search Console's "Not found (404)" report as still crawled.
+/far-north-sweden-family-bucket-list/            /family-bucket-list-travel-midwest/      301
+/fun-family-car-games-need-next-trip/            /what-to-pack-for-a-family-road-trip/    301
+# Old WordPress registration + search/pagination URLs (no equivalent on new site):
+/create-account/*                                /                                        301
+/page/*                                          /                                        301
+
 # ================= OLD WORDPRESS TAXONOMY -> HOMEPAGE ========================
 # Hundreds of old archive pages (/location_category/<place>/, /category/<x>/).
 # One wildcard each catches them all. These pass little equity but stop the 404.
